@@ -58,6 +58,14 @@
 - **Поля `song.ini`:** исполнитель, название, альбом, год и жанр. Поддерживается кириллица (UTF-8 с BOM).
 - **Графический интерфейс:** темп от 20 до 350 BPM с точностью до десятых; квантование; журнал выполнения в реальном времени, включая прогресс обработки отдельных фрагментов при разделении аудио.
 
+## Лицензия
+
+**Исходный код** этого проекта распространяется под лицензией [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+Сторонние модели (ADTOF, Demucs/модели ONNX для разделения аудио и ONNX Runtime) продолжают распространяться на условиях **собственных лицензий**. Подробности доступны по ссылкам выше.
+
+Использование этого репозитория в некоммерческих целях не расширяет права на распространение включённых в него весов моделей.
+
 ## EN
 A desktop tool that separates drums from audio tracks, detects drum hits using neural networks and rule-based methods, and exports MIDI files and Clone Hero packages (`notes.chart`, `song.ini`, stems).
 
@@ -112,4 +120,12 @@ Folders created next to the app: `input/`, `output/`, `models/`, `assets/` (opti
 - Output: GM MIDI + Clone Hero pack (`notes.chart`, `song.ini`, `song.wav`, `drums.wav`, icon)
 - `song.ini` tags: artist / title / album / year / genre (Cyrillic OK, UTF-8 BOM)
 - GUI: BPM 20–350 (one decimal place), quantize, live logs (including stem chunk progress)
+
+## License
+
+This project’s **source code** is licensed under  
+[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+Third-party models (ADTOF, Demucs/stem ONNX, ONNX Runtime) remain under **their** licenses;  
+see links above. Non-commercial use of this repo does not expand rights to redistributed weights.
 
